@@ -32,7 +32,7 @@ function startSlider(){
 		sliderInt = sliderNext;
 		sliderNext = sliderNext + 1;
 
-		}, 3000)
+  }, 3000);
 }
 
 //insert user control functionality
@@ -45,7 +45,6 @@ function prev(){
 function next(){
 	newSlide = sliderInt +1;
 	showSlide(newSlide);
-
 }
 
 //function to stop the side show and to prevent glitching
