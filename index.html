@@ -3,17 +3,19 @@
   <head>
       <title>Helping Develop JQuery Slider</title>
       <link rel="stylesheet" href="css/slider.css">
+      <script src="js/jquery.js"></script>
+      <script src="js/slider.js"></script>
     </head>
     <body>
       <div class="wrapper">
         <div id="slider">
-          <img src="images/1.png">
-          <img src="images/2.png">
-          <img src="images/3.png">
-          <img height="500px" width="500px" src="images/4.jpeg">
+          <img id="1" src="images/1.png">
+          <img id="2" src="images/2.png">
+          <img id="3" src="images/3.png">
+          <img id="4" height="500px" width="500px" src="images/4.jpeg">
         </div>
-        <a href = "#" class="left">Previous</a>
-        <a href = "#" class="right">Next</a>
+        <a href="#" class="left" onclick="prev()">Previous</a>
+        <a href="#" class="right" onclick="next()">Next</a>
       </div>
     </body>
 </html>
